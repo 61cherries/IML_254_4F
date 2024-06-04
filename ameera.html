@@ -1,0 +1,81 @@
+<html>
+<head>
+<title> About Ameera</title>
+</head>
+<body>
+<link rel="stylesheet" href="resource/css/style.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+
+<body>
+
+<div class="main">
+<div class="header">
+   <h1>AMEERA'S PROFILE PRESTIGE</h1>
+</div>
+
+<div class="topnav">
+   <a href="index.html">Home</a>
+   <a class= "active"a href="ameera.html">About Ameera</a>
+   <a href="toys.html">Ameera's Toys</a>
+   <a href="food.html">Ameera's Delicacies</a>
+   <a href="vacation.html">Ameera's Vacation</a>
+   <a href="moments.html">Ameera's Moments</a>
+   <a href="gallery.html">Galleria Ameera</a>
+   <a href="https://www.instagram.com/ameerawu" target="_blank" class="social"><i class="fab fa-instagram"></i></a>
+   <a href="https://twitter.com/ameerawuu" target="_blank" class="social"><i class="fab fa-twitter"></i></a>
+   <a href="https://api.whatsapp.com/send?phone=60165010441" target="_blank" class="social"><i class="fab fa-whatsapp"></i></a>
+</div>
+
+<br><br>
+<center>
+<div class="w3-content w3-display-container">
+  <img class="mySlides" src="resource/image/burger.jpg" width= "390px" height="490px">
+  <img class="mySlides" src="resource/image/head.jpg"width= "390px" height="490px">
+  <img class="mySlides" src="resource/image/moto.jpg"width= "390px" height="490px">
+
+  
+<button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+  <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
+</div>
+
+<script>
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  if (n > x.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = x.length}
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  x[slideIndex-1].style.display = "block";  
+}
+</script>
+</center>
+
+<center>
+<h3>AMEERA NAFEESA AZHARI :)</h3>
+<p1> Hello everyone! Allow me to introduce myself in a way that mirrors the gentle, soothing ambiance of a misty morning. My name is Ameera Nafeesa, and I am a complex tapestry woven with threads of introspection, quiet resilience, and a deep appreciation for the subtle beauty in life. Imagine the serene calm that follows a gentle rain or the quiet contemplation that comes with an overcast sky; that's the essence of who I am. I am an introspective soul, finding comfort and inspiration in the quieter moments of life. While I cherish human connection, I also deeply value my time alone, where I can reflect, dream, and recharge. I believe there is profound beauty in solitude, and it's in these moments that I uncover the depths of my creativity and the strength of my spirit. My friends often describe me as a thoughtful listener and a soothing presence, always ready to lend an empathetic ear or share a reflective conversation. My journey is one of continuous introspection, growth, and quiet discovery, and I am curious to see where it will lead me next. So, here's to appreciating the calm after the storm, finding solace in the overcast days, and embracing the gentle rhythm of life; because it's in these moments that we truly find ourselves.</p1>
+</center>
+
+
+
+
+<br><br><br><br><br>
+
+
+<footer>
+<p>&#169; 2024 AMEERA NAFEESA<br>
+All Rights Reserved.<br>
+</footer>
+
+
+</body>
+</html>

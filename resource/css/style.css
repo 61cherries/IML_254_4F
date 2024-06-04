@@ -1,0 +1,110 @@
+body {
+background-color:#E4C293;
+}
+
+
+<style>
+
+<! -- index -->
+body {
+  margin: 0;
+  font-family: Argent CF, Helvetica, sans-serif;
+}
+
+@media only screen and (max-width: 500px) {
+  .text .header .topnav .footer .body .text4 {
+    width: 100%;
+  }
+}
+
+.topnav {
+  overflow: hidden;
+  background-color:#E4C293;
+}
+
+.topnav a {
+  float: left;
+  color:maroon;
+  text-align: center;
+  padding: 18px 20px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: maroon;
+  color: white;
+}
+
+.header {
+  
+  padding: 5px;
+  text-align: center;
+  background: maroon;
+  color: white;
+  font-size: 15px;
+  font-family: Argent CF;
+  border-color: #0B353D;
+}
+footer {
+  text-align: center;
+  padding: 5px;
+  background-color: maroon;
+  color: white;
+  border-color: #0B353D;
+  font-family: Times New Roman;}
+
+.text1{
+width:100%;
+display: flex;
+color: maroon;}
+
+h1{
+margin: 20px 30px;
+color: white;}
+p{
+margin: 30px 20px;}
+
+h2{
+margin: 20px 30px;
+color: maroon;}
+p{
+margin: 30px 20px;}
+
+h3{
+margin: 20px 30px;
+color: maroon;
+font-size: 30px;
+font-family: Argent CF;
+}
+
+p1{
+margin: 20px 30px;
+text-align: justify;
+color: maroon;
+font-size: 25px;
+font-family: Argent CF;
+}
+
+h4{
+margin: 20px 30px;
+text-align: center;
+color: maroon;
+font-size: 25px;
+font-family: Argent CF;
+}
+
+
+h5{
+margin: 20px 30px;
+text-align: center;
+color: maroon;
+font-size: 25px;
+font-family: Argent CF;
+}
+
